@@ -15,22 +15,16 @@
 
 
 // /////////const array = [1,2,3,4,5]. Bu ədədlərin yanına kvadrat-ların əlavə edin. (e.x [1,2,3,4,5,1,4,9,16,25])
-// //////////1
-// const sarray = [1, 2, 3, 4, 5];
-// const array1 = [];
-// for (const item of sarray) {
-//     array1.push(item, item ** 2);
-// }
-// console.log(array1);
+const array = [1, 2, 3, 4, 5];
+const uzuznluq=array.length
+for (let i = 0; i < uzuznluq; i++) {
+    array.push(array[i]**2);
+}
+console.log(array);
 
 
-///////// ////2
-// const array = [1, 2, 3, 4, 5];
-// const newArray = [];
-// for (let i = 0; i < 5; i++) {
-//     newArray.push(array[i], array[i] * array[i]);
-// }
-// console.log(newArray);
+
+
 
 
 // ////////4. Ədədlərdən ibarət array verilir. Array-də olan cüt ədədləri ekrana çıxardın.(Əlavə: yeni array-ə əlavə edin cüt ədədləri)
